@@ -176,7 +176,11 @@ pip install langchain-community
 2. **Install Dependencies**
 
    ```bash
-   pip install -r requirements.txt
+   pip install -q -U transformers peft accelerate optimum
+   pip install auto-gptq --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu117/
+   pip install langchain
+   pip install einops
+   pip install langchain-community
    ```
 
 3. **Run the Script**
